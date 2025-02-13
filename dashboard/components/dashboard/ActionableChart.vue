@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-import DateService, { type Slice } from '@services/DateService';
+import DateService, { type Slice } from '../../../shared_global/services/DateService';
 import type { ChartData, ChartOptions, TooltipModel } from 'chart.js';
 import { useLineChart, LineChart } from 'vue-chart-3';
 
